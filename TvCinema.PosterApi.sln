@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TvCinema.PosterApi.Service.Api", "TvCinema.PosterApi.Service.Api\TvCinema.PosterApi.Service.Api.csproj", "{CA45FEC9-B4AB-41E5-BF24-4A156B99CD0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TvCinema.PosterApi.Service.Application", "TvCinema.PosterApi.Service.Application\TvCinema.PosterApi.Service.Application.csproj", "{689E4A8F-E0EB-4A7C-A509-8A8CEFCB11F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TvCinema.PosterApi.Service.CrossCutting", "TvCinema.PosterApi.Service.CrossCutting\TvCinema.PosterApi.Service.CrossCutting.csproj", "{C23A1F99-6698-49C6-9A3B-0C34310867F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TvCinema.PosterApi.Service.Domain", "TvCinema.PosterApi.Service.Domain\TvCinema.PosterApi.Service.Domain.csproj", "{7F4B160B-DE30-4C9B-A711-F07BAD597C17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TvCinema.PosterApi.Service.Infrastructure", "TvCinema.PosterApi.Service.Infrastructure\TvCinema.PosterApi.Service.Infrastructure.csproj", "{DC0B6206-26DA-46BE-A977-1ACFECF71EB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TvCinema.PosterApi.Service.Tests", "TvCinema.PosterApi.Service.Tests\TvCinema.PosterApi.Service.Tests.csproj", "{3BB07324-3789-4997-A9C7-F6137749B792}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA45FEC9-B4AB-41E5-BF24-4A156B99CD0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA45FEC9-B4AB-41E5-BF24-4A156B99CD0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA45FEC9-B4AB-41E5-BF24-4A156B99CD0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA45FEC9-B4AB-41E5-BF24-4A156B99CD0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{689E4A8F-E0EB-4A7C-A509-8A8CEFCB11F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{689E4A8F-E0EB-4A7C-A509-8A8CEFCB11F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{689E4A8F-E0EB-4A7C-A509-8A8CEFCB11F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{689E4A8F-E0EB-4A7C-A509-8A8CEFCB11F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C23A1F99-6698-49C6-9A3B-0C34310867F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C23A1F99-6698-49C6-9A3B-0C34310867F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C23A1F99-6698-49C6-9A3B-0C34310867F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C23A1F99-6698-49C6-9A3B-0C34310867F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F4B160B-DE30-4C9B-A711-F07BAD597C17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F4B160B-DE30-4C9B-A711-F07BAD597C17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F4B160B-DE30-4C9B-A711-F07BAD597C17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F4B160B-DE30-4C9B-A711-F07BAD597C17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC0B6206-26DA-46BE-A977-1ACFECF71EB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC0B6206-26DA-46BE-A977-1ACFECF71EB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC0B6206-26DA-46BE-A977-1ACFECF71EB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC0B6206-26DA-46BE-A977-1ACFECF71EB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BB07324-3789-4997-A9C7-F6137749B792}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BB07324-3789-4997-A9C7-F6137749B792}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BB07324-3789-4997-A9C7-F6137749B792}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BB07324-3789-4997-A9C7-F6137749B792}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {901898FE-6105-4FD9-8519-6AD7962ADF04}
+	EndGlobalSection
+EndGlobal
